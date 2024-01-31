@@ -1,0 +1,27 @@
+{
+  "name": "zd-handoff-ai",
+  "author": {
+    "name": "eric-at-stylo",
+    "email": "eric@askstylo.com",
+    "url": "https://askstylo.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      }
+    }
+  },
+  "parameters": [
+    {
+      "name": "openai_api_key",
+      "type": "password",
+      "secure": true
+    }
+  ],
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}
